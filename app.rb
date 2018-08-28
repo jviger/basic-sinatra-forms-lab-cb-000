@@ -7,7 +7,10 @@ class App < Sinatra::Base
   end
 
   get '/team' do
-    
+    original_string = params["string"]
+    @team_name = params["name"]
+
+    erb :reversed
   end
   
 end
