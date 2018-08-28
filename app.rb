@@ -7,7 +7,6 @@ class App < Sinatra::Base
   end
 
   get '/team' do
-    original_string = params["string"]
     @team_name = params["name"]
     @coach = params["coach"]
     @point_guard = params["pg"]
