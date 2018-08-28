@@ -16,7 +16,7 @@ class App < Sinatra::Base
     @power_forward = params["pf"]
     @center = params["c"]
 
-    erb :reversed
+    erb :team
   end
   
 end
