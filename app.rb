@@ -9,6 +9,7 @@ class App < Sinatra::Base
   get '/team' do
     original_string = params["string"]
     @team_name = params["name"]
+    @coach = params["coach"]
 
     erb :reversed
   end
