@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   get '/team' do
-    erb :newteam
+    
   end
   
 end
